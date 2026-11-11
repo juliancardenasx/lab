@@ -1,0 +1,12 @@
+---
+title: "Skills de Claude"
+listing:
+  contents: "*.qmd"
+  template: ../_listing/fichas.ejs
+  sort: "date desc"
+  date-format: "D MMM YYYY"
+  fields: [title, date, description, tipo, autores, revista, doi, pdf, datos, codigo, youtube, path]
+  feed: true
+---
+
+Skills que usamos para investigar con Claude: evaluación de proyectos, revisión de referencias, paso de tesis a artículos y más. Cada una tiene su repositorio en GitHub con instrucciones de instalación.

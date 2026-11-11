@@ -1,0 +1,15 @@
+---
+# Copia este archivo a videos/nombre-corto.qmd
+title: "Título del vídeo"
+date: 2026-11-11
+tipo: video
+description: "De qué trata el tutorial."
+youtube: "https://www.youtube.com/watch?v=XXXXXXXXXXX"
+categories: [tutorial]
+---
+
+{{< video https://www.youtube.com/watch?v=XXXXXXXXXXX >}}
+
+## Materiales
+
+- …

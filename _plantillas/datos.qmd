@@ -1,0 +1,19 @@
+---
+# Copia este archivo a datos/nombre-corto.qmd
+title: "Nombre de la base de datos"
+date: 2026-11-11
+tipo: datos
+autores: "Julián Cárdenas"
+description: "Qué contiene, cobertura (países, años) y unidad de análisis."
+doi: "10.5281/zenodo.xxxxxxx"
+datos: "https://zenodo.org/records/xxxxxxx"
+codigo: ""
+categories: []
+---
+
+## Descripción
+
+- **Cobertura:** …
+- **Unidad de análisis:** …
+- **Formato:** CSV
+- **Licencia:** CC BY 4.0

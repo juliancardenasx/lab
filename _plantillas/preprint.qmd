@@ -1,0 +1,21 @@
+---
+# Copia este archivo a preprints/AAAA-nombre-corto.qmd y rellena los campos.
+title: "Título del preprint"
+date: 2026-11-11
+tipo: preprint
+autores: "Julián Cárdenas, Nombre Apellido"
+description: "Una o dos frases que resuman el trabajo (se ven en el listado)."
+doi: "10.31235/osf.io/xxxxx"        # DOI de SocArXiv/OSF/Zenodo
+pdf: "https://osf.io/xxxxx/download" # enlace directo al PDF (opcional)
+datos: ""                             # enlace a los datos (opcional)
+codigo: ""                            # enlace al código (opcional)
+categories: [redes, sociología]
+---
+
+## Resumen
+
+Texto del resumen.
+
+## Cómo citar
+
+Cárdenas, J. (2026). *Título del preprint*. SocArXiv. https://doi.org/10.31235/osf.io/xxxxx

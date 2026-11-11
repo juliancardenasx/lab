@@ -1,0 +1,20 @@
+---
+# Copia este archivo a skills/nombre-de-la-skill.qmd
+title: "Nombre de la skill"
+date: 2026-11-11
+tipo: skill
+autores: "Julián Cárdenas"
+description: "Qué hace la skill y cuándo usarla."
+codigo: "https://github.com/juliancardenasx/nombre-de-la-skill"
+doi: ""   # si se archiva en Zenodo
+categories: [claude, skills]
+---
+
+## Qué hace
+
+…
+
+## Cómo instalarla
+
+1. Descarga el repositorio desde GitHub.
+2. En Claude, ve a Ajustes → Capacidades → Skills y sube la carpeta.

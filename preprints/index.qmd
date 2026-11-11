@@ -1,0 +1,12 @@
+---
+title: "Preprints"
+listing:
+  contents: "*.qmd"
+  template: ../_listing/fichas.ejs
+  sort: "date desc"
+  date-format: "D MMM YYYY"
+  fields: [title, date, description, tipo, autores, revista, doi, pdf, datos, codigo, youtube, path]
+  feed: true
+---
+
+Versiones de trabajo de nuestros artículos, antes o durante la revisión por pares. Cada preprint está depositado en un repositorio abierto con DOI, así que puede citarse desde hoy.

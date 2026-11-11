@@ -1,0 +1,160 @@
+/*-- scss:defaults --*/
+// Paleta y tipografía tomadas de networkianos.com
+$nw-ink:     #333333;
+$nw-muted:   rgba(51, 51, 51, 0.7);
+$nw-paper:   #f1f1f1;
+$nw-card:    #ffffff;
+$nw-line:    #eaeaea;
+$nw-link:    #21759b;
+$nw-link-hv: #1a5d7c;
+
+$body-bg: $nw-paper;
+$body-color: $nw-ink;
+$link-color: $nw-link;
+$link-decoration: none;
+$primary: $nw-link;
+
+$font-family-sans-serif: "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+$font-family-serif: "Noto Serif", Georgia, serif;
+$font-family-base: $font-family-serif;
+$headings-font-family: $font-family-serif;
+$headings-font-weight: 700;
+$headings-color: $nw-ink;
+$font-size-root: 17px;
+$line-height-base: 1.7;
+
+$sidebar-bg: $nw-card;
+$sidebar-fg: $nw-ink;
+$sidebar-hl: $nw-link;
+$footer-bg: $nw-paper;
+$footer-fg: $nw-muted;
+
+/*-- scss:rules --*/
+
+body { background: $nw-paper; }
+
+// Barra lateral blanca con sombra, como el tema de networkianos.com
+#quarto-sidebar {
+  background: $nw-card;
+  box-shadow: 0 0 1px rgba(0,0,0,.15);
+  font-family: $font-family-sans-serif;
+  padding-top: 2.2rem;
+}
+.sidebar-title {
+  font-family: $font-family-sans-serif;
+  font-size: 1.45rem !important;
+  font-weight: 700;
+  line-height: 1.25;
+  color: $nw-ink !important;
+}
+.sidebar-header-item p, .sidebar-header .sidebar-subtitle {
+  font-family: $font-family-serif;
+  font-size: .82rem;
+  color: $nw-muted;
+}
+.sidebar-tagline {
+  font-family: $font-family-serif;
+  font-size: .82rem;
+  color: $nw-muted;
+  margin: .25rem 0 1rem;
+}
+.sidebar-navigation .sidebar-item {
+  border-top: 1px solid $nw-line;
+}
+.sidebar-navigation .sidebar-item:last-child { border-bottom: 1px solid $nw-line; }
+.sidebar-navigation .sidebar-item-text, .sidebar-navigation .sidebar-link {
+  font-family: $font-family-serif;
+  font-size: .9rem;
+  color: $nw-ink;
+  padding: .45rem 0;
+}
+.sidebar-navigation .sidebar-link.active .sidebar-item-text,
+.sidebar-navigation .sidebar-link:hover .sidebar-item-text {
+  color: $nw-link;
+}
+.sidebar-tools-main a { color: $nw-muted; }
+
+// Contenido en "tarjeta" blanca
+main.content {
+  background: $nw-card;
+  box-shadow: 0 0 1px rgba(0,0,0,.15);
+  padding: 3.2rem 3.4rem 3.6rem;
+  margin-top: 2.2rem;
+  margin-bottom: 2.2rem;
+}
+@media (max-width: 991.98px) {
+  main.content { padding: 2rem 1.25rem 2.5rem; margin-top: 1rem; }
+}
+
+h1.title { font-size: 2.1rem; line-height: 1.25; letter-spacing: -.01em; }
+.quarto-title p.subtitle { font-family: $font-family-sans-serif; color: $nw-muted; font-size: 1rem; }
+h2 { font-size: 1.45rem; margin-top: 2.4rem; border: 0; }
+h3 { font-size: 1.15rem; }
+a:hover { color: $nw-link-hv; text-decoration: underline; }
+
+.quarto-title-meta, .quarto-title-meta-heading, .quarto-title-meta-contents,
+.listing-date, .nw-meta, .nw-kicker, .nw-btn, .page-footer, .nw-empty {
+  font-family: $font-family-sans-serif;
+}
+
+// Botones de enlace (DOI, PDF, datos…)
+.nw-links { display: flex; flex-wrap: wrap; gap: .45rem; margin: .9rem 0 0; }
+.nw-btn {
+  display: inline-block;
+  font-size: .72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  padding: .35rem .75rem;
+  border: 1px solid $nw-line;
+  border-radius: 2px;
+  color: $nw-ink;
+  background: #f7f7f7;
+}
+.nw-btn:hover { background: $nw-ink; color: #fff; text-decoration: none; border-color: $nw-ink; }
+
+// Fichas de los listados
+.nw-list { list-style: none; padding: 0; margin: 1.5rem 0 0; }
+.nw-item { padding: 1.6rem 0; border-top: 1px solid $nw-line; }
+.nw-item:first-child { border-top: 0; padding-top: .4rem; }
+.nw-kicker {
+  font-size: .72rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .06em; color: $nw-link; margin-bottom: .2rem;
+}
+.nw-item h3 { margin: 0 0 .3rem; font-size: 1.25rem; line-height: 1.35; }
+.nw-item h3 a { color: $nw-ink; }
+.nw-item h3 a:hover { color: $nw-link; }
+.nw-meta { font-size: .8rem; color: $nw-muted; margin-bottom: .5rem; }
+.nw-desc { margin: 0; }
+.nw-empty {
+  color: $nw-muted; font-size: .9rem; padding: 1.4rem 1.2rem;
+  background: #f7f7f7; border-left: 3px solid $nw-line;
+}
+
+// Rejilla de secciones en portada
+.nw-sections { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0; margin: 1.8rem 0 0; border-top: 1px solid $nw-line; }
+.nw-sections a { display: block; padding: 1rem .2rem 1.1rem; border-bottom: 1px solid $nw-line; color: $nw-ink; }
+.nw-sections a:hover { text-decoration: none; color: $nw-link; }
+.nw-sections strong { display: block; font-size: 1.05rem; }
+.nw-sections span { font-family: $font-family-sans-serif; font-size: .8rem; color: $nw-muted; }
+
+.page-footer { font-size: .78rem; }
+.nav-footer { background: $nw-paper; border-top: 0; }
+.nw-sections p { display: contents; }
+.sidebar-header-item p { margin: .3rem 0 0; font-size: .82rem; line-height: 1.5; color: $nw-muted; font-family: $font-family-serif; }
+.sidebar-title { font-weight: 700 !important; }
+@media (min-width: 992px) {
+  #quarto-sidebar { display: flex !important; flex-direction: column; }
+  #quarto-sidebar > * { order: 3; }
+  #quarto-sidebar > .sidebar-header { order: 1; }
+  #quarto-sidebar > .quarto-sidebar-header { order: 2; padding-top: 0; }
+}
+.quarto-sidebar-header { background: transparent !important; }
+.nw-item-head { margin: 0 0 2rem; padding-bottom: 1.4rem; border-bottom: 1px solid $nw-line; }
+.nw-item-head .nw-meta { font-size: .9rem; margin: 0; }
+.sidebar-navigation .sidebar-item-section > .sidebar-item-container .sidebar-item-text { font-size: .9rem !important; color: $nw-ink; padding: .45rem 0; }
+.sidebar-navigation ul.sidebar-section .sidebar-item { border: 0; }
+.sidebar-navigation ul.sidebar-section .sidebar-item-text { font-size: .8rem !important; color: $nw-muted; padding: .2rem 0; line-height: 1.35; }
+.sidebar-navigation ul.sidebar-section .sidebar-link.active .sidebar-item-text { color: $nw-link; }
+.sidebar-navigation a.sidebar-item-text.active { color: $nw-link; }

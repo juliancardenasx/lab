@@ -1,0 +1,99 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - CNAME
+
+lang: es
+
+website:
+  title: "Networkianos Lab"
+  description: "Preprints, artículos, datos, skills de Claude y tutoriales de investigación social. Julián Cárdenas."
+  site-url: "https://lab.networkianos.com"
+  favicon: img/favicon.svg
+  open-graph: true
+  page-navigation: false
+  search:
+    location: sidebar
+    type: textbox
+  sidebar:
+    style: docked
+    collapse-level: 1
+    title: "Networkianos Lab"
+    header: "Julián Cárdenas · Sociología, redes e inteligencia artificial"
+    contents:
+      - text: "Inicio"
+        href: index.qmd
+      - section: "Preprints"
+        href: preprints/index.qmd
+        contents: "preprints/*.qmd"
+      - section: "Artículos"
+        href: articulos/index.qmd
+        contents: "articulos/*.qmd"
+      - section: "Datos"
+        href: datos/index.qmd
+        contents: "datos/*.qmd"
+      - section: "Skills de Claude"
+        href: skills/index.qmd
+        contents: "skills/*.qmd"
+      - section: "Vídeos"
+        href: videos/index.qmd
+        contents: "videos/*.qmd"
+      - text: "Sobre el lab"
+        href: sobre.qmd
+    tools:
+      - icon: youtube
+        href: https://www.youtube.com/
+        aria-label: YouTube
+      - icon: github
+        href: https://github.com/juliancardenasx
+        aria-label: GitHub
+      - icon: globe
+        href: https://networkianos.com
+        aria-label: Networkianos
+  page-footer:
+    left: "© Julián Cárdenas · Contenidos con licencia CC BY 4.0 salvo indicación contraria"
+    right: "[networkianos.com](https://networkianos.com)"
+
+format:
+  html:
+    theme: [cosmo, theme.scss]
+    toc: false
+    filters:
+      - _listing/enlaces.lua
+    smooth-scroll: true
+    link-external-newwindow: true
+    title-block-style: default
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    include-after-body:
+      text: |
+        <script>
+        // Las secciones vacías del menú no tienen enlace: se lo ponemos.
+        (function () {
+          var base = document.querySelector('.sidebar-title a');
+          var root = base ? base.getAttribute('href') : './';
+          if (root.slice(-1) !== '/') root += '/';
+          var map = {"Preprints":"preprints/","Artículos":"articulos/","Datos":"datos/","Skills de Claude":"skills/","Vídeos":"videos/"};
+          document.querySelectorAll('li.sidebar-item-section > span.sidebar-item-text').forEach(function (el) {
+            var t = el.textContent.trim();
+            if (!map[t]) return;
+            var a = document.createElement('a');
+            a.className = 'sidebar-item-text sidebar-link';
+            a.href = root + map[t];
+            a.innerHTML = el.innerHTML;
+            if (location.pathname.indexOf('/' + map[t]) !== -1) a.classList.add('active');
+            var wrap = document.createElement('div');
+            wrap.className = 'sidebar-item-container';
+            wrap.appendChild(a);
+            el.replaceWith(wrap);
+          });
+        })();
+        </script>
+    grid:
+      sidebar-width: 280px
+      body-width: 760px
+      margin-width: 200px

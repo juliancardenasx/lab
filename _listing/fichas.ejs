@@ -1,0 +1,15 @@
+<%
+const kinds = {preprint: "Preprint", articulo: "Artículo", datos: "Datos", skill: "Skill de Claude", video: "Vídeo"};
+const btn = (url, label) => url ? `<a class="nw-btn" href="${url}">${label}</a>` : "";
+const doiUrl = (d) => d ? (d.startsWith("http") ? d : "https://doi.org/" + d) : null;
+const meta = (item) => [item.autores, item.date ? `<span class="listing-date">${item.date}</span>` : null, item.revista ? `<em>${item.revista}</em>` : null].filter(Boolean).join(" · ");
+%>
+<% if (items.length === 0) { %>
+<p class="nw-empty">Todavía no hay nada publicado en esta sección. Muy pronto.</p>
+<% } else { %>
+<ul class="nw-list">
+<% for (const item of items) { %>
+<li class="nw-item" <%= metadataAttrs(item) %>><% if (item.tipo) { %><div class="nw-kicker"><%- kinds[item.tipo] || item.tipo %></div><% } %><h3><a href="<%= item.path %>"><%- item.title %></a></h3><div class="nw-meta"><%= meta(item) %></div><% if (item.description) { %><p class="nw-desc"><%- item.description %></p><% } %><div class="nw-links"><%= btn(doiUrl(item.doi), "DOI") %><%= btn(item.pdf, "PDF") %><%= btn(item.datos, "Datos") %><%= btn(item.codigo, "Código") %><%= btn(item.youtube, "Vídeo") %></div></li>
+<% } %>
+</ul>
+<% } %>
