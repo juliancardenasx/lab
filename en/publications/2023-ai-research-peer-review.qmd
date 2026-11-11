@@ -1,0 +1,24 @@
+---
+title: "Artificial intelligence, research and peer-review: future scenarios and action strategies"
+alt: /publicaciones/2023-ia-investigacion-revision-pares.html
+date: 2023-10-01
+date-format: "YYYY"
+tipo: articulo
+autores: "Julián Cárdenas"
+revista: "Revista Española de Sociología, 32(4), a184"
+description: "What generative AI changes in research and peer review: four future scenarios and action strategies for universities and journals."
+image: /publicaciones/img/2023-ia-investigacion-revision-pares.jpg
+doi: "10.22325/fes/res.2023.184"
+pdf: "/publicaciones/pdf/2023-ia-investigacion-revision-pares.pdf"
+categories: [article, artificial intelligence, peer review]
+---
+
+## What it is about
+
+An editorial in the *Revista Española de Sociología* that asks whether we should accept AI reviewing the articles submitted to a journal. It defines and characterises generative AI, reviews tools that already assist research and sets out four possible scenarios: democratisation of research, underuse of AI, rising inequality and digital laggards.
+
+The central argument: AI greatly expands what a researcher can do, but it cannot "hit the streets". It cannot replace fieldwork or the interpretation of social context. The text closes with concrete proposals: training in AI tools, research-based education and an open debate on the use of AI in managing scientific journals.
+
+## How to cite
+
+Cárdenas, J. (2023). Artificial intelligence, research and peer-review: future scenarios and action strategies. *Revista Española de Sociología*, *32*(4), a184. <https://doi.org/10.22325/fes/res.2023.184>

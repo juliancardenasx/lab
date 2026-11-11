@@ -1,5 +1,6 @@
 ---
 title: "Quiénes somos"
+alt: /en/about.html
 ---
 
 **Networkianos** es un equipo de investigación en sociología que estudia redes sociales y organizativas, élites, métodos cuantitativos e inteligencia artificial aplicada a la investigación.

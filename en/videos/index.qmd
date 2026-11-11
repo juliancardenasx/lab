@@ -1,0 +1,13 @@
+---
+title: "Videos"
+listing:
+  contents: "*.qmd"
+  template: ../../_listing/fichas-en.ejs
+  sort: "date desc"
+  date-format: "YYYY"
+  fields: [title, date, description, image, tipo, autores, revista, doi, pdf, datos, codigo, youtube, plataformas, path]
+  categories: false
+  feed: true
+---
+
+YouTube tutorials on methods, network analysis and doing research with artificial intelligence. Most videos are in Spanish.

@@ -1,0 +1,13 @@
+---
+title: "Publications"
+listing:
+  contents: "*.qmd"
+  template: ../../_listing/publicaciones-en.ejs
+  sort: "date desc"
+  date-format: "YYYY"
+  fields: [title, date, description, image, tipo, autores, revista, doi, pdf, datos, codigo, youtube, plataformas, path]
+  categories: true
+  feed: true
+---
+
+Everything we write: preprints, journal articles, book chapters and reports. Where available, each publication links to its DOI and to an open-access version.

@@ -1,0 +1,25 @@
+---
+title: "Tech elites: embeddedness in regulatory frameworks and corporate networks"
+alt: /publicaciones/2026-elites-tecnologicas.html
+date: 2026-01-01
+date-format: "YYYY"
+tipo: capitulo
+autores: "Julián Cárdenas and Zeus Domínguez-Rubio"
+revista: "Elites políticas e domínios do poder na América Latina, ch. 12"
+description: "How big tech is embedded in US and EU AI regulation and in networks of shared directors: fragmented institutions, integrated networks. In Spanish."
+image: /publicaciones/img/2026-elites-tecnologicas.jpg
+pdf: "/publicaciones/pdf/2026-elites-tecnologicas.pdf"
+categories: [book chapter, elites, artificial intelligence, corporate networks]
+---
+
+## What it is about
+
+*The chapter is written in Spanish; original title: "Las élites tecnológicas: la inserción en marcos normativos y redes corporativas".*
+
+The chapter studies the dual embeddedness of tech elites in the age of artificial intelligence: their institutional embeddedness in the frameworks that regulate AI, and their relational embeddedness in corporate networks.
+
+It compares the regulatory models of the United States and the European Union and analyses the interlocking directorates network of the 21 largest technology companies. The result is a tension: regulation is split into two paradigms (the European one, based on risk of use, and the US one, based on computing capacity), yet the networks are integrated through transatlantic ties. Meta, Microsoft, Amazon and Alphabet connect with European tech firms such as Accenture, Adyen and SAP. This divergence between fragmented institutions and integrated networks calls into question whether national frameworks can constrain elites that operate transnationally.
+
+## How to cite
+
+Cárdenas, J. and Domínguez-Rubio, Z. (2026). Las élites tecnológicas: la inserción en marcos normativos y redes corporativas. In M. Serna, E. T. dos Reis, I. Gastal Grill and M. Gené (Eds.), *Elites políticas e domínios do poder na América Latina* (ch. 12). Fino Traço Editora. ISBN 978-85-8054-795-5.

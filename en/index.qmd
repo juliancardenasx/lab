@@ -1,0 +1,36 @@
+---
+title: "Networkianos Lab"
+subtitle: "What we produce through research, in the open"
+listing:
+  id: latest
+  contents:
+    - "publications/*.qmd"
+    - "data/*.qmd"
+    - "skills/*.qmd"
+    - "plugins/*.qmd"
+    - "videos/*.qmd"
+  exclude:
+    filename: "index.qmd"
+  template: ../_listing/fichas-en.ejs
+  sort: "date desc"
+  max-items: 6
+  date-format: "YYYY"
+  fields: [title, date, description, image, tipo, autores, revista, doi, pdf, datos, codigo, youtube, plataformas, path]
+  feed: true
+---
+
+This is where we share the outputs of [Networkianos](https://networkianos.com)' research: publications, data, skills, plugins and connectors for AI assistants, and video tutorials. Everything is open and, whenever possible, has a DOI so it can be cited.
+
+::: {.nw-sections}
+[![](../img/logos/publicaciones.svg){fig-alt=""}**Publications** <span>Preprints, articles and reports</span>](publications/index.qmd)
+[![](../img/logos/datos.svg){fig-alt=""}**Data** <span>Datasets and materials</span>](data/index.qmd)
+[![](../img/logos/skills.svg){fig-alt=""}**AI skills** <span>For Claude, ChatGPT, Kimi and other assistants</span>](skills/index.qmd)
+[![](../img/logos/plugins.svg){fig-alt=""}**Plugins and connectors** <span>Connecting AI to data and tools</span>](plugins/index.qmd)
+[![](../img/logos/videos.svg){fig-alt=""}**Videos** <span>Tutorials on YouTube</span>](videos/index.qmd)
+[![](../img/logos/equipo.svg){fig-alt=""}**About us** <span>The team and contact</span>](about.qmd)
+:::
+
+## Latest
+
+::: {#latest}
+:::

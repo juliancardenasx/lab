@@ -8,6 +8,7 @@ plataformas: [Claude]    # asistentes donde la hemos probado: Claude, ChatGPT, K
 codigo: "https://github.com/juliancardenasx/nombre-de-la-skill"
 doi: ""
 categories: [escritura académica, Claude]   # una o dos tareas + los asistentes
+alt: ""   # página equivalente en inglés, p. ej. /en/publications/nombre.html
 ---
 
 ## Qué hace

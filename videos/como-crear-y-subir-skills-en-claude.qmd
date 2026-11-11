@@ -1,5 +1,6 @@
 ---
 title: "Cómo crear y subir skills en Claude"
+alt: /en/videos/how-to-create-and-upload-skills-in-claude.html
 date: 2026-11-11
 tipo: video
 description: "Tutorial breve (1:36) sobre cómo crear una skill y subirla a Claude."

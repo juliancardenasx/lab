@@ -1,0 +1,15 @@
+---
+title: "AI plugins and connectors"
+listing:
+  contents: "*.qmd"
+  template: ../../_listing/fichas-en.ejs
+  sort: "date desc"
+  date-format: "YYYY"
+  fields: [title, date, description, image, tipo, autores, revista, doi, pdf, datos, codigo, youtube, plataformas, path]
+  categories: true
+  feed: true
+---
+
+**Plugins** bundle several skills, commands and connections into a single package for a complete workflow. **Connectors** (usually MCP servers) give the assistant access to external data and tools: bibliographic databases, repositories, spreadsheets or analysis software.
+
+Each entry shows which assistants we have tested it in and what it is for.

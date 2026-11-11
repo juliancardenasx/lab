@@ -206,3 +206,11 @@ img.nw-cover { float: right; width: 150px; margin: 0 0 1rem 1.5rem; border: 1px 
 .nw-miembro p { margin: 0; font-family: $font-family-sans-serif; font-size: .85rem; color: $nw-muted; line-height: 1.5; }
 .nw-miembro p strong { font-family: $font-family-serif; font-size: 1.05rem; color: $nw-ink; }
 .nw-miembro img.nw-foto { width: 140px; height: 140px; border-radius: 50%; object-fit: cover; margin: 0 auto .8rem; display: block; box-shadow: 0 2px 8px rgba(0,0,0,.15); }
+// Selector de idioma
+.nw-lang { display: inline-flex; gap: 0; margin-top: .55rem; border: 1px solid $nw-line; border-radius: 3px; overflow: hidden; font-family: $font-family-sans-serif; font-size: .72rem; font-weight: 700; letter-spacing: .05em; }
+.nw-lang a, .nw-lang span { padding: .2rem .6rem; }
+.nw-lang span { background: $nw-ink; color: #fff; }
+.nw-lang a { color: $nw-ink; background: #fff; }
+.nw-lang a:hover { background: #f1f1f1; text-decoration: none; }
+.nw-lang-mobile { margin: 0 0 0 auto; }
+.nw-sections a img { background: #262626; }

@@ -1,0 +1,15 @@
+---
+title: "Plugins y conectores de IA"
+listing:
+  contents: "*.qmd"
+  template: ../_listing/fichas.ejs
+  sort: "date desc"
+  date-format: "YYYY"
+  fields: [title, date, description, tipo, autores, revista, doi, pdf, datos, codigo, youtube, plataformas, path]
+  categories: true
+  feed: true
+---
+
+Los **plugins** reúnen en un solo paquete varias skills, comandos y conexiones para un flujo de trabajo completo. Los **conectores** (normalmente servidores MCP) dan al asistente acceso a datos y herramientas externas: bases bibliográficas, repositorios, hojas de cálculo o software de análisis.
+
+Cada ficha indica en qué asistentes lo hemos probado y para qué sirve.

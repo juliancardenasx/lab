@@ -10,7 +10,7 @@ lang: es
 
 website:
   title: "Networkianos Lab"
-  description: "Preprints, artículos, datos, skills de IA y tutoriales de investigación social. Networkianos."
+  description: "Publicaciones, datos, skills, plugins y tutoriales de investigación social con IA. Networkianos."
   site-url: "https://lab.networkianos.com"
   favicon: img/favicon.svg
   open-graph: true
@@ -19,40 +19,81 @@ website:
     location: sidebar
     type: textbox
   sidebar:
-    style: docked
-    collapse-level: 1
-    title: "Networkianos Lab"
-    header: "Sociología, redes e inteligencia artificial"
-    contents:
-      - text: "Inicio"
-        href: index.qmd
-      - section: "Publicaciones"
-        href: publicaciones/index.qmd
-        contents: "publicaciones/*.qmd"
-      - section: "Datos"
-        href: datos/index.qmd
-        contents: "datos/*.qmd"
-      - section: "Skills de IA"
-        href: skills/index.qmd
-        contents: "skills/*.qmd"
-      - section: "Vídeos"
-        href: videos/index.qmd
-        contents: "videos/*.qmd"
-      - text: "Quiénes somos"
-        href: quienes-somos.qmd
-    tools:
-      - icon: youtube
-        href: https://www.youtube.com/@julian.cardenas
-        aria-label: YouTube
-      - icon: github
-        href: https://github.com/juliancardenasx
-        aria-label: GitHub
-      - icon: globe
-        href: https://networkianos.com
-        aria-label: Networkianos
+    # Menú en español
+    - id: es
+      style: docked
+      collapse-level: 1
+      title: "Networkianos Lab"
+      header: "Sociología, redes e inteligencia artificial"
+      contents:
+        - text: "Inicio"
+          href: index.qmd
+        - section: "Publicaciones"
+          href: publicaciones/index.qmd
+          contents: "publicaciones/*.qmd"
+        - section: "Datos"
+          href: datos/index.qmd
+          contents: "datos/*.qmd"
+        - section: "Skills de IA"
+          href: skills/index.qmd
+          contents: "skills/*.qmd"
+        - section: "Plugins y conectores"
+          href: plugins/index.qmd
+          contents: "plugins/*.qmd"
+        - section: "Vídeos"
+          href: videos/index.qmd
+          contents: "videos/*.qmd"
+        - text: "Quiénes somos"
+          href: quienes-somos.qmd
+      tools:
+        - icon: youtube
+          href: https://www.youtube.com/@julian.cardenas
+          aria-label: YouTube
+        - icon: github
+          href: https://github.com/juliancardenasx
+          aria-label: GitHub
+        - icon: globe
+          href: https://networkianos.com
+          aria-label: Networkianos
+    # Menú en inglés
+    - id: en
+      style: docked
+      collapse-level: 1
+      title: "Networkianos Lab"
+      header: "Sociology, networks and artificial intelligence"
+      contents:
+        - text: "Home"
+          href: en/index.qmd
+        - section: "Publications"
+          href: en/publications/index.qmd
+          contents: "en/publications/*.qmd"
+        - section: "Data"
+          href: en/data/index.qmd
+          contents: "en/data/*.qmd"
+        - section: "AI skills"
+          href: en/skills/index.qmd
+          contents: "en/skills/*.qmd"
+        - section: "Plugins and connectors"
+          href: en/plugins/index.qmd
+          contents: "en/plugins/*.qmd"
+        - section: "Videos"
+          href: en/videos/index.qmd
+          contents: "en/videos/*.qmd"
+        - text: "About us"
+          href: en/about.qmd
+      tools:
+        - icon: youtube
+          href: https://www.youtube.com/@julian.cardenas
+          aria-label: YouTube
+        - icon: github
+          href: https://github.com/juliancardenasx
+          aria-label: GitHub
+        - icon: globe
+          href: https://networkianos.com
+          aria-label: Networkianos
   page-footer:
-    left: "© Networkianos · Contenidos con licencia CC BY 4.0 salvo indicación contraria"
-    right: "Fotos de portada: [Unsplash](https://unsplash.com) · [networkianos.com](https://networkianos.com)"
+    left: "© Networkianos · CC BY 4.0"
+    right: "[networkianos.com](https://networkianos.com)"
 
 format:
   html:
@@ -71,25 +112,55 @@ format:
     include-after-body:
       text: |
         <script>
-        // Las secciones vacías del menú no tienen enlace: se lo ponemos.
         (function () {
-          var base = document.querySelector('.sidebar-title a');
-          var root = base ? base.getAttribute('href') : './';
-          if (root.slice(-1) !== '/') root += '/';
-          var map = {"Publicaciones":"publicaciones/","Datos":"datos/","Skills de IA":"skills/","Vídeos":"videos/"};
+          var isEn = location.pathname.indexOf('/en/') === 0 || location.pathname === '/en';
+          // 1. Las secciones vacías del menú no tienen enlace: se lo ponemos.
+          var map = {
+            "Publicaciones": "/publicaciones/", "Datos": "/datos/", "Skills de IA": "/skills/",
+            "Plugins y conectores": "/plugins/", "Vídeos": "/videos/",
+            "Publications": "/en/publications/", "Data": "/en/data/", "AI skills": "/en/skills/",
+            "Plugins and connectors": "/en/plugins/", "Videos": "/en/videos/"
+          };
           document.querySelectorAll('li.sidebar-item-section > span.sidebar-item-text').forEach(function (el) {
             var t = el.textContent.trim();
             if (!map[t]) return;
             var a = document.createElement('a');
             a.className = 'sidebar-item-text sidebar-link';
-            a.href = root + map[t];
+            a.href = map[t];
             a.innerHTML = el.innerHTML;
-            if (location.pathname.indexOf('/' + map[t]) !== -1) a.classList.add('active');
+            if (location.pathname.indexOf(map[t]) === 0) a.classList.add('active');
             var wrap = document.createElement('div');
             wrap.className = 'sidebar-item-container';
             wrap.appendChild(a);
             el.replaceWith(wrap);
           });
+          // 2. Selector de idioma ES · EN
+          var pairs = {
+            "/": "/en/", "/index.html": "/en/",
+            "/publicaciones/": "/en/publications/", "/datos/": "/en/data/", "/skills/": "/en/skills/",
+            "/plugins/": "/en/plugins/", "/videos/": "/en/videos/", "/quienes-somos.html": "/en/about.html"
+          };
+          var p = location.pathname.replace(/index\.html$/, '');
+          var other = null;
+          var alt = document.getElementById('nw-alt');
+          if (alt) other = alt.getAttribute('data-href');
+          if (!other) {
+            for (var k in pairs) {
+              var es = k.replace(/index\.html$/, ''), en = pairs[k];
+              if (!isEn && p === es) other = en;
+              if (isEn && p === en) other = es;
+            }
+          }
+          if (!other) other = isEn ? '/' : '/en/';
+          var box = document.createElement('div');
+          box.className = 'nw-lang';
+          box.innerHTML = isEn
+            ? '<a href="' + other + '" lang="es">ES</a><span>EN</span>'
+            : '<span>ES</span><a href="' + other + '" lang="en">EN</a>';
+          var title = document.querySelector('#quarto-sidebar .sidebar-header');
+          if (title) title.appendChild(box);
+          var mobile = document.querySelector('.quarto-secondary-nav .container-fluid, .quarto-secondary-nav');
+          if (mobile) { var m = box.cloneNode(true); m.classList.add('nw-lang-mobile'); mobile.appendChild(m); }
         })();
         </script>
     grid:

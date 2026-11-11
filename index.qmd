@@ -4,10 +4,11 @@ subtitle: "Lo que producimos investigando, en abierto"
 listing:
   id: novedades
   contents:
-    - "publicaciones/*.qmd"
-    - "datos/*.qmd"
-    - "skills/*.qmd"
-    - "videos/*.qmd"
+    - "/publicaciones/*.qmd"
+    - "/datos/*.qmd"
+    - "/skills/*.qmd"
+    - "/plugins/*.qmd"
+    - "/videos/*.qmd"
   exclude:
     filename: "index.qmd"
   template: _listing/fichas.ejs
@@ -18,14 +19,15 @@ listing:
   feed: true
 ---
 
-Aquí colgamos lo que sale del trabajo de investigación de [Networkianos](https://networkianos.com): publicaciones, datos, skills para asistentes de IA y vídeos tutoriales. Todo en abierto y, siempre que se pueda, con DOI para que se pueda citar.
+Aquí colgamos lo que sale del trabajo de investigación de [Networkianos](https://networkianos.com): publicaciones, datos, skills, plugins y conectores para asistentes de IA, y vídeos tutoriales. Todo en abierto y, siempre que se pueda, con DOI para que se pueda citar.
 
 ::: {.nw-sections}
-[![](https://images.unsplash.com/photo-1676377630356-d8e7acd02ead?w=128&h=128&fit=crop&crop=faces&dpr=2&q=80){fig-alt=""}**Publicaciones** <span>Preprints, artículos e informes</span>](publicaciones/index.qmd)
-[![](https://images.unsplash.com/photo-1590678892653-49d5ceea5372?w=128&h=128&fit=crop&crop=faces&dpr=2&q=80){fig-alt=""}**Datos** <span>Bases y materiales de replicación</span>](datos/index.qmd)
-[![](https://images.unsplash.com/photo-1779475486375-213ee6950ed9?w=128&h=128&fit=crop&crop=faces&dpr=2&q=80){fig-alt=""}**Skills de IA** <span>Para Claude, ChatGPT y otros asistentes</span>](skills/index.qmd)
-[![](https://images.unsplash.com/photo-1536970133011-278d129e072e?w=128&h=128&fit=crop&crop=faces&dpr=2&q=80){fig-alt=""}**Vídeos** <span>Tutoriales en YouTube</span>](videos/index.qmd)
-[![](https://images.unsplash.com/photo-1781665790125-81ffedbdbecc?w=128&h=128&fit=crop&crop=entropy&dpr=2&q=80){fig-alt=""}**Quiénes somos** <span>El equipo y contacto</span>](quienes-somos.qmd)
+[![](img/logos/publicaciones.svg){fig-alt=""}**Publicaciones** <span>Preprints, artículos e informes</span>](publicaciones/index.qmd)
+[![](img/logos/datos.svg){fig-alt=""}**Datos** <span>Bases y materiales</span>](datos/index.qmd)
+[![](img/logos/skills.svg){fig-alt=""}**Skills de IA** <span>Para Claude, ChatGPT, Kimi y otros asistentes</span>](skills/index.qmd)
+[![](img/logos/plugins.svg){fig-alt=""}**Plugins y conectores** <span>Para conectar la IA con datos y herramientas</span>](plugins/index.qmd)
+[![](img/logos/videos.svg){fig-alt=""}**Vídeos** <span>Tutoriales en YouTube</span>](videos/index.qmd)
+[![](img/logos/equipo.svg){fig-alt=""}**Quiénes somos** <span>El equipo y contacto</span>](quienes-somos.qmd)
 :::
 
 ## Lo último

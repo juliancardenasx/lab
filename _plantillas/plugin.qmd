@@ -1,0 +1,20 @@
+---
+# Copia este archivo a plugins/nombre-corto.qmd
+title: "Nombre del plugin o conector"
+date: 2026-11-11
+date-format: "YYYY"
+tipo: plugin            # plugin | conector
+description: "Qué hace y con qué datos o herramientas conecta."
+plataformas: [Claude]   # asistentes donde lo hemos probado: Claude, ChatGPT, Kimi…
+codigo: "https://github.com/juliancardenasx/nombre"
+categories: [Claude]
+alt: /en/plugins/nombre-corto.html   # página equivalente en inglés (si existe)
+---
+
+## Qué hace
+
+…
+
+## Cómo instalarlo
+
+…

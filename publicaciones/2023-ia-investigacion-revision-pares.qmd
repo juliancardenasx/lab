@@ -1,7 +1,7 @@
 ---
 title: "Artificial intelligence, research and peer-review: future scenarios and action strategies"
+alt: /en/publications/2023-ai-research-peer-review.html
 date: 2023-10-01
-date-format: "YYYY"
 tipo: articulo
 autores: "Julián Cárdenas"
 revista: "Revista Española de Sociología, 32(4), a184"

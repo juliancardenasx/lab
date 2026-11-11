@@ -1,7 +1,7 @@
 ---
 title: "Las élites tecnológicas: la inserción en marcos normativos y redes corporativas"
+alt: /en/publications/2026-tech-elites.html
 date: 2026-01-01
-date-format: "YYYY"
 tipo: capitulo
 autores: "Julián Cárdenas y Zeus Domínguez-Rubio"
 revista: "Elites políticas e domínios do poder na América Latina, cap. 12"

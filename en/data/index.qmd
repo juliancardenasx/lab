@@ -1,0 +1,13 @@
+---
+title: "Data"
+listing:
+  contents: "*.qmd"
+  template: ../../_listing/fichas-en.ejs
+  sort: "date desc"
+  date-format: "YYYY"
+  fields: [title, date, description, image, tipo, autores, revista, doi, pdf, datos, codigo, youtube, plataformas, path]
+  categories: false
+  feed: true
+---
+
+Datasets and replication materials. The files are deposited in Zenodo or OSF with a DOI and an open licence; here you will find the description and the link.

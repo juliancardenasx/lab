@@ -1,0 +1,28 @@
+---
+title: "About us"
+alt: /quienes-somos.html
+---
+
+**Networkianos** is a sociology research team that studies social and organisational networks, elites, quantitative methods and artificial intelligence applied to research.
+
+## Team
+
+::: {.nw-equipo}
+
+::: {.nw-miembro}
+![](https://github.com/juliancardenasx.png?size=320){.nw-foto fig-alt="Photo of Julián Cárdenas"}
+
+**Julián Cárdenas**  
+Coordinator  
+Universitat de València
+:::
+
+:::
+
+## Contact
+
+[julian.cardenas@uv.es](mailto:julian.cardenas@uv.es) · [networkianos.com](https://networkianos.com)
+
+## Licence and citation
+
+Content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) unless stated otherwise; code and skills carry their own licence. To cite, use the DOI or repository shown on each entry.

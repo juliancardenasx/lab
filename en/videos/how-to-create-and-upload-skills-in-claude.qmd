@@ -1,0 +1,19 @@
+---
+title: "How to create and upload skills in Claude"
+alt: /videos/como-crear-y-subir-skills-en-claude.html
+date: 2026-11-11
+tipo: video
+description: "Short tutorial (1:36) on how to create a skill and upload it to Claude. In Spanish."
+youtube: "https://www.youtube.com/watch?v=rLMUxTxJK9U"
+categories: [tutorial, claude, skills]
+---
+
+{{< video https://www.youtube.com/watch?v=rLMUxTxJK9U title="Cómo crear y subir skills en Claude" >}}
+
+*The video is in Spanish.*
+
+## Practice
+
+To try it with a ready-made skill, download [Thesis-to-Articles](../skills/thesis-to-articles.qmd) from its repository and upload it following the steps in the video.
+
+More videos on [our YouTube channel](https://www.youtube.com/@julian.cardenas).

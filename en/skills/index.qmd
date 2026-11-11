@@ -1,0 +1,15 @@
+---
+title: "AI skills"
+listing:
+  contents: "*.qmd"
+  template: ../../_listing/fichas-en.ejs
+  sort: "date desc"
+  date-format: "YYYY"
+  fields: [title, date, description, image, tipo, autores, revista, doi, pdf, datos, codigo, youtube, plataformas, path]
+  categories: true
+  feed: true
+---
+
+Skills we use to do research with AI assistants. A skill is a folder of instructions (a `SKILL.md` file) plus supporting materials that the assistant loads when a task calls for it.
+
+Each entry shows **which assistants we have tested it in** (Claude, ChatGPT, Kimi…) and **what it is for**. Use the categories on the right to filter by task or by assistant.

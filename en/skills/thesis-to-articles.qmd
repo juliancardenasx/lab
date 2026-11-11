@@ -1,0 +1,59 @@
+---
+title: "Thesis-to-Articles"
+alt: /skills/thesis-to-articles.html
+date: 2026-11-11
+tipo: skill
+plataformas: [Claude]
+description: "Turns a monograph-format doctoral thesis into up to three publishable Q1 journal articles, and says honestly when it can only yield one or two."
+codigo: "https://github.com/juliancardenasx/thesis-to-articles-skill"
+categories: [academic writing, doctoral thesis, Claude]
+---
+
+## What it does
+
+Turning a thesis into articles is not a reformatting exercise. A thesis demonstrates mastery of a field; an article makes one bounded contribution to a specific scholarly conversation. This skill turns that conversion into an explicit, auditable procedure: it reads the full thesis, decides how many standalone articles it really contains, drafts them one at a time and reviews each draft against Q1 peer-review criteria before handing it over.
+
+Its main feature is **calibrated honesty**. It will not promise three articles when the thesis supports one, and it does not inflate scores to be encouraging. A thesis with a single dataset and a single research question yields a single article; splitting it artificially produces two thin papers that reviewers reject.
+
+## Who it is for
+
+- PhD students moving from a monograph thesis to a thesis by publication.
+- Early-career researchers extracting their first articles from a completed dissertation.
+- Supervisors who want a structured, critical first pass.
+
+Designed for the social sciences: sociology, political science, economics, management, organisation studies and adjacent quantitative and mixed-methods fields.
+
+## How it works
+
+1. **Diagnosis.** Each candidate article goes through a four-question viability test: does it have its own research question, a distinct theoretical contribution, enough empirical material, and can it be read on its own? Failing two or more means it is not viable. The skill announces how many articles there are (1, 2 or 3) and why, before writing anything.
+2. **Drafting.** Each article is written in full in standard Q1 structure. Only material from the thesis is used, with no invented data, results or citations, but it is rewritten: the thesis scaffolding is removed and the argument is rebuilt around the article's own gap.
+3. **Peer review.** Each draft is scored 1–5 on seven dimensions (contribution, gap, design, empirical evidence, coherence, writing and independence). It gets a verdict (ready to submit, needs revision or not viable as a Q1 article), the three weaknesses a reviewer would flag with their fixes, and two or three target journals.
+
+## How to install it
+
+**In Claude (web and desktop):** download the repository as a ZIP (*Code → Download ZIP*) and upload it under *Settings → Capabilities → Skills*. Requires a paid plan.
+
+**In Claude Code or Cowork:**
+
+```bash
+git clone https://github.com/juliancardenasx/thesis-to-articles-skill.git ~/.claude/skills/thesis-to-articles
+```
+
+## How to use it
+
+Attach the thesis (PDF or DOCX) and ask, in English or Spanish:
+
+> Convert my thesis into publishable articles.
+
+> ¿Cuántos artículos puedo sacar de mi tesis?
+
+Expect to be told "two articles, not three" more often than not. That is the intended behaviour, not a failure.
+
+## Limitations
+
+- Social sciences only: the rubric, split patterns and journal lists follow their conventions.
+- Journal lists change every year: check current rankings before submitting.
+- It drafts; it does not author. Whoever uses it must check everything against their own data and results, and remains responsible for it.
+- Check each journal's policy on AI use and disclose it where required.
+
+MIT licence. If you use it in published work, cite it using the repository's `CITATION.cff` file.

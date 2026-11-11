@@ -1,5 +1,6 @@
 ---
 title: "Thesis-to-Articles"
+alt: /en/skills/thesis-to-articles.html
 date: 2026-11-11
 tipo: skill
 plataformas: [Claude]
