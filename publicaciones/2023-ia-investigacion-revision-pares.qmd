@@ -1,0 +1,23 @@
+---
+title: "Artificial intelligence, research and peer-review: future scenarios and action strategies"
+date: 2023-10-01
+date-format: "YYYY"
+tipo: articulo
+autores: "Julián Cárdenas"
+revista: "Revista Española de Sociología, 32(4), a184"
+description: "Qué cambia la IA generativa en la investigación y en la revisión por pares: cuatro escenarios de futuro y estrategias de acción para universidades y revistas."
+image: img/2023-ia-investigacion-revision-pares.jpg
+doi: "10.22325/fes/res.2023.184"
+pdf: "/publicaciones/pdf/2023-ia-investigacion-revision-pares.pdf"
+categories: [artículo, inteligencia artificial, revisión por pares]
+---
+
+## De qué trata
+
+Editorial de la *Revista Española de Sociología* que se pregunta si deberíamos aceptar que la IA revise los artículos que se envían a una revista. Define y caracteriza la IA generativa, repasa herramientas que ya asisten en la investigación y plantea cuatro escenarios posibles: democratización de la investigación, desaprovechamiento de la IA, aumento de la desigualdad y rezagados digitales.
+
+La tesis central: la IA amplía mucho lo que puede hacer un investigador, pero no "pisa la calle". No puede sustituir el trabajo de campo ni la interpretación del contexto social. El texto termina con propuestas concretas: formación en herramientas de IA, una educación basada en la investigación y un debate abierto sobre el uso de la IA en la gestión de las revistas científicas.
+
+## Cómo citar
+
+Cárdenas, J. (2023). Artificial intelligence, research and peer-review: future scenarios and action strategies. *Revista Española de Sociología*, *32*(4), a184. <https://doi.org/10.22325/fes/res.2023.184>

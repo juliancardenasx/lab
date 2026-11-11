@@ -1,0 +1,22 @@
+---
+title: "Las élites tecnológicas: la inserción en marcos normativos y redes corporativas"
+date: 2026-01-01
+date-format: "YYYY"
+tipo: capitulo
+autores: "Julián Cárdenas y Zeus Domínguez-Rubio"
+revista: "Elites políticas e domínios do poder na América Latina, cap. 12"
+description: "Cómo se insertan las grandes tecnológicas en la regulación de la IA de Estados Unidos y la Unión Europea y en las redes de consejeros compartidos: instituciones fragmentadas, redes integradas."
+image: img/2026-elites-tecnologicas.jpg
+pdf: "/publicaciones/pdf/2026-elites-tecnologicas.pdf"
+categories: [capítulo de libro, élites, inteligencia artificial, redes corporativas]
+---
+
+## De qué trata
+
+El capítulo estudia la doble inserción de las élites tecnológicas en la era de la inteligencia artificial. Por un lado, su inserción institucional en los marcos que regulan la IA; por otro, su inserción relacional en redes corporativas.
+
+Compara los modelos regulatorios de Estados Unidos y la Unión Europea y analiza la red de *interlocking directorates* (consejeros compartidos) de las 21 mayores empresas tecnológicas. El resultado es una tensión: la regulación está partida en dos paradigmas (el europeo, basado en el riesgo de uso, y el estadounidense, basado en la capacidad de cómputo), pero las redes están integradas por vínculos transatlánticos. Meta, Microsoft, Amazon y Alphabet se conectan con tecnológicas europeas como Accenture, Adyen y SAP. Esa divergencia entre instituciones fragmentadas y redes integradas pone en duda que los marcos nacionales puedan condicionar a élites que operan a escala transnacional.
+
+## Cómo citar
+
+Cárdenas, J. y Domínguez-Rubio, Z. (2026). Las élites tecnológicas: la inserción en marcos normativos y redes corporativas. En M. Serna, E. T. dos Reis, I. Gastal Grill y M. Gené (Eds.), *Elites políticas e domínios do poder na América Latina* (cap. 12). Fino Traço Editora. ISBN 978-85-8054-795-5.

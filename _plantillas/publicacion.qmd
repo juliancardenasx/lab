@@ -2,12 +2,14 @@
 # Copia este archivo a publicaciones/AAAA-nombre-corto.qmd y rellena los campos.
 title: "Título de la publicación"
 date: 2026-11-11
+date-format: "YYYY"
 tipo: preprint          # preprint | articulo | capitulo | informe
 autores: "Nombre Apellido, Nombre Apellido"
 revista: ""              # revista, libro o repositorio (SocArXiv, OSF…)
 description: "Una o dos frases que resuman el trabajo (se ven en el listado)."
+image: img/AAAA-nombre-corto.jpg   # portada: primera página del PDF en JPG (publicaciones/img/)
 doi: ""                  # p. ej. 10.31235/osf.io/xxxxx
-pdf: ""                  # enlace directo al PDF en acceso abierto
+pdf: ""                  # /publicaciones/pdf/AAAA-nombre-corto.pdf o enlace externo
 datos: ""
 codigo: ""
 categories: [preprint, redes]   # pon el tipo y uno o dos temas

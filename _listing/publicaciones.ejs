@@ -1,0 +1,14 @@
+<%
+const kinds = {preprint: "Preprint", articulo: "Artículo", capitulo: "Capítulo de libro", informe: "Informe"};
+const btn = (url, label) => url ? `<a class="nw-btn" href="${url}">${label}</a>` : "";
+const doiUrl = (d) => d ? (d.startsWith("http") ? d : "https://doi.org/" + d) : null;
+%>
+<% if (items.length === 0) { %>
+<p class="nw-empty">Todavía no hay nada publicado aquí. Muy pronto.</p>
+<% } else { %>
+<div class="nw-pubs">
+<% for (const item of items) { %>
+<article class="nw-pub" <%= metadataAttrs(item) %>><a class="nw-pub-cover" href="<%= item.path %>"><% if (item.image) { %><img src="<%= item.image %>" alt="" loading="lazy"><% } else { %><span class="nw-pub-nocover"><%- (kinds[item.tipo] || "") %></span><% } %></a><div class="nw-pub-body"><div class="nw-kicker"><%- kinds[item.tipo] || item.tipo %><% if (item.date) { %> · <%- item.date %><% } %></div><h3><a href="<%= item.path %>"><%- item.title %></a></h3><div class="nw-meta"><%- item.autores || "" %><% if (item.revista) { %> · <em><%- item.revista %></em><% } %></div><p class="nw-desc"><%- item.description || "" %></p><div class="nw-links"><%= btn(item.pdf, "Leer PDF") %><%= btn(doiUrl(item.doi), "DOI") %><%= btn(item.datos, "Datos") %><%= btn(item.codigo, "Código") %><a class="nw-btn nw-btn-ghost" href="<%= item.path %>">Ficha y cita</a></div></div></article>
+<% } %>
+</div>
+<% } %>

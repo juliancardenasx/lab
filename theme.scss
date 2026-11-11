@@ -178,3 +178,25 @@ a:hover { color: $nw-link-hv; text-decoration: underline; }
 .nw-persona > p:first-child { flex: 0 0 128px; }
 .nw-persona img.nw-foto { width: 128px !important; max-width: none; height: 128px; }
 .nw-persona + h2 { margin-top: 2rem; }
+// Publicaciones en tarjetas con portada
+.nw-pubs { display: grid; gap: 1.4rem; margin-top: 1.8rem; }
+.nw-pub { display: grid; grid-template-columns: 150px 1fr; gap: 1.5rem; padding: 1.3rem; background: #fafafa; border: 1px solid $nw-line; border-radius: 4px; transition: box-shadow .15s ease, transform .15s ease; }
+.nw-pub:hover { box-shadow: 0 6px 18px rgba(0,0,0,.08); transform: translateY(-2px); }
+.nw-pub-cover { display: block; align-self: start; }
+.nw-pub-cover img { width: 150px; aspect-ratio: 1 / 1.414; object-fit: cover; object-position: top; border: 1px solid #ddd; box-shadow: 0 3px 10px rgba(0,0,0,.14); background: #fff; display: block; }
+.nw-pub-nocover { display: flex; align-items: center; justify-content: center; width: 150px; aspect-ratio: 1 / 1.414; background: #333; color: #fff; font-family: $font-family-sans-serif; font-size: .75rem; text-transform: uppercase; letter-spacing: .06em; text-align: center; padding: 1rem; }
+.nw-pub h3 { margin: .1rem 0 .4rem; font-size: 1.2rem; line-height: 1.35; }
+.nw-pub h3 a { color: $nw-ink; }
+.nw-pub h3 a:hover { color: $nw-link; text-decoration: none; }
+.nw-pub .nw-desc { font-size: .95rem; line-height: 1.6; }
+.nw-btn-ghost { background: transparent; }
+@media (max-width: 575.98px) {
+  .nw-pub { grid-template-columns: 1fr; }
+  .nw-pub-cover img, .nw-pub-nocover { width: 120px; }
+}
+// Miniatura en "Lo último"
+.nw-item.nw-has-cover { display: grid; grid-template-columns: 84px 1fr; gap: 1.2rem; }
+.nw-thumb img { width: 84px; aspect-ratio: 1 / 1.414; object-fit: cover; object-position: top; border: 1px solid #ddd; box-shadow: 0 2px 6px rgba(0,0,0,.12); display: block; margin-top: .3rem; }
+// Portada en la ficha
+.nw-item-head { overflow: hidden; }
+img.nw-cover { float: right; width: 150px; margin: 0 0 1rem 1.5rem; border: 1px solid #ddd; box-shadow: 0 3px 10px rgba(0,0,0,.14); }

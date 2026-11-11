@@ -30,6 +30,9 @@ function Pandoc(doc)
   if #btns > 0 then
     table.insert(html, '<div class="nw-links">' .. table.concat(btns) .. "</div>")
   end
+  if s(m.image) ~= "" and s(m.tipo) ~= "video" and s(m.tipo) ~= "skill" then
+    table.insert(html, 1, '<img class="nw-cover" src="' .. s(m.image) .. '" alt="">')
+  end
   if #html > 0 then
     table.insert(doc.blocks, 1, pandoc.RawBlock("html", '<div class="nw-item-head">' .. table.concat(html) .. "</div>"))
   end
