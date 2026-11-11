@@ -8,7 +8,7 @@ lang: es
 
 website:
   title: "Networkianos Lab"
-  description: "Preprints, artículos, datos, skills de Claude y tutoriales de investigación social. Julián Cárdenas."
+  description: "Preprints, artículos, datos, skills de Claude y tutoriales de investigación social. Networkianos."
   site-url: "https://lab.networkianos.com"
   favicon: img/favicon.svg
   open-graph: true
@@ -20,7 +20,7 @@ website:
     style: docked
     collapse-level: 1
     title: "Networkianos Lab"
-    header: "Julián Cárdenas · Sociología, redes e inteligencia artificial"
+    header: "Sociología, redes e inteligencia artificial"
     contents:
       - text: "Inicio"
         href: index.qmd
@@ -39,11 +39,11 @@ website:
       - section: "Vídeos"
         href: videos/index.qmd
         contents: "videos/*.qmd"
-      - text: "Sobre el lab"
-        href: sobre.qmd
+      - text: "Quiénes somos"
+        href: quienes-somos.qmd
     tools:
       - icon: youtube
-        href: https://www.youtube.com/
+        href: https://www.youtube.com/@julian.cardenas
         aria-label: YouTube
       - icon: github
         href: https://github.com/juliancardenasx
@@ -52,7 +52,7 @@ website:
         href: https://networkianos.com
         aria-label: Networkianos
   page-footer:
-    left: "© Julián Cárdenas · Contenidos con licencia CC BY 4.0 salvo indicación contraria"
+    left: "© Networkianos · Contenidos con licencia CC BY 4.0 salvo indicación contraria"
     right: "[networkianos.com](https://networkianos.com)"
 
 format:

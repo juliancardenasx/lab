@@ -27,7 +27,7 @@ Aquí colgamos lo que sale del trabajo de investigación de [Networkianos](https
 [**Datos** <span>Bases y materiales de replicación</span>](datos/index.qmd)
 [**Skills de Claude** <span>Herramientas para investigar con IA</span>](skills/index.qmd)
 [**Vídeos** <span>Tutoriales en YouTube</span>](videos/index.qmd)
-[**Sobre el lab** <span>Quiénes somos y cómo citar</span>](sobre.qmd)
+[**Quiénes somos** <span>El equipo y cómo citar</span>](quienes-somos.qmd)
 :::
 
 ## Lo último

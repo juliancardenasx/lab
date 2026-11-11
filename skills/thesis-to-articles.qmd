@@ -1,0 +1,57 @@
+---
+title: "Thesis-to-Articles"
+date: 2026-11-11
+tipo: skill
+description: "Convierte una tesis doctoral en formato monografía en hasta tres artículos publicables en revistas Q1, y dice con franqueza cuándo solo da para uno o dos."
+codigo: "https://github.com/juliancardenasx/thesis-to-articles-skill"
+categories: [claude, skills, tesis doctoral, escritura académica]
+---
+
+## Qué hace
+
+Pasar una tesis a artículos no es cambiar el formato. Una tesis demuestra dominio de un campo; un artículo hace una sola contribución acotada a una conversación académica concreta. Esta skill convierte esa transformación en un procedimiento explícito y revisable: lee la tesis completa, decide cuántos artículos independientes contiene de verdad, los redacta uno a uno y revisa cada borrador con criterios de evaluación de revistas Q1 antes de entregarlo.
+
+Su rasgo principal es la **honestidad calibrada**. No promete tres artículos si la tesis solo sostiene uno, ni infla las puntuaciones para animar. Una tesis con un solo conjunto de datos y una sola pregunta de investigación da un solo artículo; partirla de forma artificial produce dos artículos débiles que los revisores rechazan.
+
+## Para quién es
+
+- Doctorandos que quieren pasar de tesis monográfica a tesis por compendio de publicaciones.
+- Investigadores noveles que quieren sacar sus primeros artículos de una tesis ya defendida.
+- Directores de tesis que quieren una primera lectura crítica y estructurada.
+
+Pensada para ciencias sociales: sociología, ciencia política, economía, gestión, estudios organizativos y campos afines, cuantitativos y mixtos.
+
+## Cómo funciona
+
+1. **Diagnóstico.** Somete cada artículo candidato a una prueba de viabilidad con cuatro preguntas: ¿tiene pregunta de investigación propia?, ¿aporta una contribución teórica distinta?, ¿tiene material empírico suficiente?, ¿se entiende sin leer los demás? Si falla dos o más, no es viable. Anuncia cuántos artículos salen (1, 2 o 3) y por qué, antes de escribir nada.
+2. **Redacción.** Escribe cada artículo completo con la estructura estándar de una revista Q1. Usa solo el contenido de la tesis, sin inventar datos, resultados ni citas, pero lo reescribe: quita el andamiaje de tesis y reconstruye el argumento alrededor del hueco que cubre el artículo.
+3. **Revisión por pares.** Puntúa cada borrador de 1 a 5 en siete dimensiones (contribución, identificación del hueco, diseño, evidencia empírica, coherencia, redacción e independencia). Da un veredicto (listo para enviar, necesita revisión o no viable como artículo Q1), señala las tres debilidades que marcaría un revisor con su solución y propone dos o tres revistas.
+
+## Cómo instalarla
+
+**En Claude (web y escritorio):** descarga el repositorio como ZIP (*Code → Download ZIP*) y súbelo en *Ajustes → Capacidades → Skills*. Requiere un plan de pago.
+
+**En Claude Code o Cowork:**
+
+```bash
+git clone https://github.com/juliancardenasx/thesis-to-articles-skill.git ~/.claude/skills/thesis-to-articles
+```
+
+## Cómo usarla
+
+Adjunta la tesis (PDF o DOCX) y pide, en español o en inglés:
+
+> ¿Cuántos artículos puedo sacar de mi tesis?
+
+> Convert my thesis into publishable articles.
+
+Lo normal es que la respuesta sea "dos artículos, no tres". Es el comportamiento buscado, no un fallo.
+
+## Límites
+
+- Solo para ciencias sociales: la rúbrica, los patrones de división y las listas de revistas siguen sus convenciones.
+- Las listas de revistas cambian cada año: comprueba los cuartiles antes de enviar.
+- Redacta borradores; no es autora. Quien la usa debe verificarlo todo contra sus propios datos y resultados, y la responsabilidad es suya.
+- Revisa la política de cada revista sobre el uso de IA y decláralo cuando se pida.
+
+Licencia MIT. Si la usas en un trabajo publicado, cítala con el archivo `CITATION.cff` del repositorio.

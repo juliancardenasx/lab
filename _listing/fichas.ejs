@@ -5,7 +5,7 @@ const doiUrl = (d) => d ? (d.startsWith("http") ? d : "https://doi.org/" + d) : 
 const meta = (item) => [item.autores, item.date ? `<span class="listing-date">${item.date}</span>` : null, item.revista ? `<em>${item.revista}</em>` : null].filter(Boolean).join(" · ");
 %>
 <% if (items.length === 0) { %>
-<p class="nw-empty">Todavía no hay nada publicado en esta sección. Muy pronto.</p>
+<p class="nw-empty">Todavía no hay nada publicado aquí. Muy pronto.</p>
 <% } else { %>
 <ul class="nw-list">
 <% for (const item of items) { %>

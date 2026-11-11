@@ -1,0 +1,19 @@
+---
+title: "Quiénes somos"
+---
+
+Somos [Networkianos](https://networkianos.com), un equipo de investigación en sociología. Trabajamos sobre redes sociales y organizativas, élites y gobierno corporativo, métodos cuantitativos e inteligencia artificial aplicada a la investigación.
+
+Networkianos Lab es nuestro espacio de materiales: aquí publicamos en abierto los preprints, artículos, datos, skills de Claude y vídeos que salen de nuestro trabajo. El blog y la divulgación siguen en [networkianos.com](https://networkianos.com).
+
+## Cómo citar
+
+Cada preprint, conjunto de datos y skill tiene su propia ficha con la referencia completa y, cuando existe, su DOI. Cita siempre ese DOI o el repositorio original, no la dirección de esta web.
+
+## Licencia
+
+Salvo que se indique otra cosa, los contenidos tienen licencia [Creative Commons Atribución 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.es). El código y las skills llevan su propia licencia en cada repositorio.
+
+## Contacto
+
+A través de [networkianos.com](https://networkianos.com).

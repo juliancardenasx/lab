@@ -1,6 +1,6 @@
 # Networkianos Lab
 
-Web de materiales de investigación de Julián Cárdenas: <https://lab.networkianos.com>
+Web de materiales de investigación de Networkianos: <https://lab.networkianos.com>
 
 Hecha con [Quarto](https://quarto.org). Cada vez que se sube un cambio a la rama `main`, GitHub Actions genera la web y la publica en GitHub Pages.
 

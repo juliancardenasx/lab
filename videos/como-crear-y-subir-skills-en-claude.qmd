@@ -1,0 +1,16 @@
+---
+title: "Cómo crear y subir skills en Claude"
+date: 2026-11-11
+tipo: video
+description: "Tutorial breve (1:36) sobre cómo crear una skill y subirla a Claude."
+youtube: "https://www.youtube.com/watch?v=rLMUxTxJK9U"
+categories: [tutorial, claude, skills]
+---
+
+{{< video https://www.youtube.com/watch?v=rLMUxTxJK9U title="Cómo crear y subir skills en Claude" >}}
+
+## Para practicar
+
+Si quieres probar con una skill ya hecha, descarga [Thesis-to-Articles](../skills/thesis-to-articles.qmd) desde su repositorio y súbela siguiendo los pasos del vídeo.
+
+Más vídeos en [nuestro canal de YouTube](https://www.youtube.com/@julian.cardenas).

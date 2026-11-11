@@ -158,3 +158,7 @@ a:hover { color: $nw-link-hv; text-decoration: underline; }
 .sidebar-navigation ul.sidebar-section .sidebar-item-text { font-size: .8rem !important; color: $nw-muted; padding: .2rem 0; line-height: 1.35; }
 .sidebar-navigation ul.sidebar-section .sidebar-link.active .sidebar-item-text { color: $nw-link; }
 .sidebar-navigation a.sidebar-item-text.active { color: $nw-link; }
+.sidebar-title, .sidebar-title a, .sidebar-title a:hover { color: #000 !important; font-weight: 700 !important; text-decoration: none; }
+.sidebar-title { display: flex; flex-direction: column; align-items: flex-start; gap: .35rem; }
+.sidebar-title .sidebar-tools-main { margin-left: -.25rem; }
+.sidebar-title a { white-space: nowrap; font-size: 1.3rem; }
