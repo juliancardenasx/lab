@@ -13,8 +13,15 @@ alt: /en/about.html
 ![](https://github.com/juliancardenasx.png?size=320){.nw-foto fig-alt="Foto de Julián Cárdenas"}
 
 **Julián Cárdenas**  
-Coordinador  
 Universitat de València
+:::
+
+::: {.nw-miembro}
+![](/img/equipo/zeus-dominguez-rubio.jpg){.nw-foto fig-alt="Foto de Zeus Domínguez-Rubio"}
+
+**Zeus Domínguez-Rubio**  
+Universitat de València  
+Interesado en investigar transición ecológica, relaciones de poder y cambio institucional
 :::
 
 :::
