@@ -3,11 +3,11 @@
 title: "Nombre de la skill"
 date: 2026-11-11
 tipo: skill
-autores: "Julián Cárdenas"
 description: "Qué hace la skill y cuándo usarla."
+plataformas: [Claude]    # asistentes donde la hemos probado: Claude, ChatGPT, Kimi…
 codigo: "https://github.com/juliancardenasx/nombre-de-la-skill"
-doi: ""   # si se archiva en Zenodo
-categories: [claude, skills]
+doi: ""
+categories: [escritura académica, Claude]   # una o dos tareas + los asistentes
 ---
 
 ## Qué hace
@@ -16,5 +16,4 @@ categories: [claude, skills]
 
 ## Cómo instalarla
 
-1. Descarga el repositorio desde GitHub.
-2. En Claude, ve a Ajustes → Capacidades → Skills y sube la carpeta.
+…

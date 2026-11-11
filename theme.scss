@@ -162,3 +162,16 @@ a:hover { color: $nw-link-hv; text-decoration: underline; }
 .sidebar-title { display: flex; flex-direction: column; align-items: flex-start; gap: .35rem; }
 .sidebar-title .sidebar-tools-main { margin-left: -.25rem; }
 .sidebar-title a { white-space: nowrap; font-size: 1.3rem; }
+// Portada: secciones con avatar
+.nw-sections a { display: grid; grid-template-columns: 64px 1fr; grid-template-rows: auto auto; column-gap: .9rem; align-items: center; padding: .9rem .2rem; }
+.nw-sections a img { grid-row: 1 / span 2; width: 64px; height: 64px; border-radius: 10px; margin: 0; box-shadow: 0 1px 2px rgba(0,0,0,.12); transition: transform .15s ease; }
+.nw-sections a:hover img { transform: scale(1.06); }
+.nw-sections a strong { align-self: end; }
+.nw-sections a span { align-self: start; }
+.nw-sections a p, .nw-sections .quarto-figure { display: contents; margin: 0; }
+// Quiénes somos
+.nw-persona { display: flex; gap: 1.6rem; align-items: center; margin-top: .5rem; }
+.nw-persona p { margin: 0; }
+.nw-persona img.nw-foto, .nw-persona .nw-foto { width: 128px; height: 128px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
+@media (max-width: 575.98px) { .nw-persona { flex-direction: column; align-items: flex-start; } }
+.nw-sections { margin-bottom: 1.2rem; }

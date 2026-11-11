@@ -8,7 +8,7 @@ lang: es
 
 website:
   title: "Networkianos Lab"
-  description: "Preprints, artículos, datos, skills de Claude y tutoriales de investigación social. Networkianos."
+  description: "Preprints, artículos, datos, skills de IA y tutoriales de investigación social. Networkianos."
   site-url: "https://lab.networkianos.com"
   favicon: img/favicon.svg
   open-graph: true
@@ -24,16 +24,13 @@ website:
     contents:
       - text: "Inicio"
         href: index.qmd
-      - section: "Preprints"
-        href: preprints/index.qmd
-        contents: "preprints/*.qmd"
-      - section: "Artículos"
-        href: articulos/index.qmd
-        contents: "articulos/*.qmd"
+      - section: "Publicaciones"
+        href: publicaciones/index.qmd
+        contents: "publicaciones/*.qmd"
       - section: "Datos"
         href: datos/index.qmd
         contents: "datos/*.qmd"
-      - section: "Skills de Claude"
+      - section: "Skills de IA"
         href: skills/index.qmd
         contents: "skills/*.qmd"
       - section: "Vídeos"
@@ -77,7 +74,7 @@ format:
           var base = document.querySelector('.sidebar-title a');
           var root = base ? base.getAttribute('href') : './';
           if (root.slice(-1) !== '/') root += '/';
-          var map = {"Preprints":"preprints/","Artículos":"articulos/","Datos":"datos/","Skills de Claude":"skills/","Vídeos":"videos/"};
+          var map = {"Publicaciones":"publicaciones/","Datos":"datos/","Skills de IA":"skills/","Vídeos":"videos/"};
           document.querySelectorAll('li.sidebar-item-section > span.sidebar-item-text').forEach(function (el) {
             var t = el.textContent.trim();
             if (!map[t]) return;

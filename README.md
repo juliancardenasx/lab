@@ -6,8 +6,8 @@ Hecha con [Quarto](https://quarto.org). Cada vez que se sube un cambio a la rama
 
 ## Cómo añadir contenido
 
-1. Copia la plantilla de `_plantillas/` que corresponda (preprint, artículo, datos, skill o vídeo).
-2. Guárdala en su carpeta (`preprints/`, `articulos/`, `datos/`, `skills/`, `videos/`) con un nombre corto, sin espacios ni tildes.
+1. Copia la plantilla de `_plantillas/` que corresponda (publicación, datos, skill o vídeo).
+2. Guárdala en su carpeta (`publicaciones/`, `datos/`, `skills/`, `videos/`) con un nombre corto, sin espacios ni tildes.
 3. Rellena los campos y sube el cambio (Commit + Push en GitHub Desktop).
 
 La portada muestra automáticamente las seis novedades más recientes.

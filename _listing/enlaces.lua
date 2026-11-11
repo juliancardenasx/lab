@@ -9,6 +9,13 @@ function Pandoc(doc)
   local info = {}
   if s(m.autores) ~= "" then table.insert(info, s(m.autores)) end
   if s(m.revista) ~= "" then table.insert(info, "<em>" .. s(m.revista) .. "</em>") end
+  if m.plataformas then
+    local p = {}
+    if type(m.plataformas) == "table" and m.plataformas[1] then
+      for _, v in ipairs(m.plataformas) do table.insert(p, s(v)) end
+    else table.insert(p, s(m.plataformas)) end
+    table.insert(info, "Probada en: " .. table.concat(p, ", "))
+  end
   if #info > 0 then
     table.insert(html, '<p class="nw-meta">' .. table.concat(info, " · ") .. "</p>")
   end

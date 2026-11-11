@@ -2,9 +2,10 @@
 title: "Thesis-to-Articles"
 date: 2026-11-11
 tipo: skill
+plataformas: [Claude]
 description: "Convierte una tesis doctoral en formato monografía en hasta tres artículos publicables en revistas Q1, y dice con franqueza cuándo solo da para uno o dos."
 codigo: "https://github.com/juliancardenasx/thesis-to-articles-skill"
-categories: [claude, skills, tesis doctoral, escritura académica]
+categories: [escritura académica, tesis doctoral, Claude]
 ---
 
 ## Qué hace
