@@ -2,10 +2,20 @@
 title: "Quiénes somos"
 ---
 
-::: {.nw-persona}
+**Networkianos** es un equipo de investigación en sociología que estudia redes sociales y organizativas, élites, métodos cuantitativos e inteligencia artificial aplicada a la investigación.
+
+## Equipo
+
+::: {.nw-equipo}
+
+::: {.nw-miembro}
 ![](https://github.com/juliancardenasx.png?size=320){.nw-foto fig-alt="Foto de Julián Cárdenas"}
 
-**Networkianos** es un equipo de investigación en sociología que estudia redes sociales y organizativas, élites, métodos cuantitativos e inteligencia artificial aplicada a la investigación. Lo coordina **Julián Cárdenas**, investigador de la Universitat de València.
+**Julián Cárdenas**  
+Coordinador  
+Universitat de València
+:::
+
 :::
 
 ## Contacto

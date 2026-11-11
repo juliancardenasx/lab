@@ -200,3 +200,9 @@ a:hover { color: $nw-link-hv; text-decoration: underline; }
 // Portada en la ficha
 .nw-item-head { overflow: hidden; }
 img.nw-cover { float: right; width: 150px; margin: 0 0 1rem 1.5rem; border: 1px solid #ddd; box-shadow: 0 3px 10px rgba(0,0,0,.14); }
+// Equipo en Quiénes somos
+.nw-equipo { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 1.6rem; margin-top: 1rem; }
+.nw-miembro { text-align: center; }
+.nw-miembro p { margin: 0; font-family: $font-family-sans-serif; font-size: .85rem; color: $nw-muted; line-height: 1.5; }
+.nw-miembro p strong { font-family: $font-family-serif; font-size: 1.05rem; color: $nw-ink; }
+.nw-miembro img.nw-foto { width: 140px; height: 140px; border-radius: 50%; object-fit: cover; margin: 0 auto .8rem; display: block; box-shadow: 0 2px 8px rgba(0,0,0,.15); }
