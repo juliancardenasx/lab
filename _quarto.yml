@@ -52,7 +52,7 @@ website:
         aria-label: Networkianos
   page-footer:
     left: "© Networkianos · Contenidos con licencia CC BY 4.0 salvo indicación contraria"
-    right: "[networkianos.com](https://networkianos.com)"
+    right: "Fotos de portada: [Unsplash](https://unsplash.com) · [networkianos.com](https://networkianos.com)"
 
 format:
   html:
