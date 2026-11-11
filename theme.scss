@@ -175,3 +175,6 @@ a:hover { color: $nw-link-hv; text-decoration: underline; }
 .nw-persona img.nw-foto, .nw-persona .nw-foto { width: 128px; height: 128px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
 @media (max-width: 575.98px) { .nw-persona { flex-direction: column; align-items: flex-start; } }
 .nw-sections { margin-bottom: 1.2rem; }
+.nw-persona > p:first-child { flex: 0 0 128px; }
+.nw-persona img.nw-foto { width: 128px !important; max-width: none; height: 128px; }
+.nw-persona + h2 { margin-top: 2rem; }
