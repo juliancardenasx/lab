@@ -1,6 +1,7 @@
 ---
 title: "Networkianos Lab"
 subtitle: "Lo que producimos investigando, en abierto"
+description: "Publicaciones, datos, skills de IA y tutoriales de Networkianos, equipo de sociología de la Universitat de València (Julián Cárdenas, Zeus Domínguez-Rubio)."
 listing:
   id: novedades
   contents:

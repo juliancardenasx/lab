@@ -1,5 +1,6 @@
 ---
 title: "About us"
+description: "Networkianos is a sociology research team at the Universitat de València: Julián Cárdenas and Zeus Domínguez-Rubio. Networks, elites, ecological transition and artificial intelligence."
 alt: /quienes-somos.html
 ---
 
@@ -12,14 +13,14 @@ alt: /quienes-somos.html
 ::: {.nw-miembro}
 ![](https://github.com/juliancardenasx.png?size=320){.nw-foto fig-alt="Photo of Julián Cárdenas"}
 
-**Julián Cárdenas**  
+**[Julián Cárdenas](team/julian-cardenas.qmd)**  
 Universitat de València
 :::
 
 ::: {.nw-miembro}
 ![](/img/equipo/zeus-dominguez-rubio.jpg){.nw-foto fig-alt="Photo of Zeus Domínguez-Rubio"}
 
-**Zeus Domínguez-Rubio**  
+**[Zeus Domínguez-Rubio](team/zeus-dominguez-rubio.qmd)**  
 Universitat de València  
 Interested in researching the ecological transition, power relations and institutional change
 :::

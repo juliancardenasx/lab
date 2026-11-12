@@ -1,0 +1,36 @@
+---
+title: "Zeus Domínguez-Rubio"
+subtitle: "Researcher · Universitat de València"
+pagetitle: "Zeus Domínguez-Rubio – Universitat de València"
+description: "Zeus Domínguez-Rubio, researcher at the Universitat de València interested in the ecological transition, power relations and institutional change. Publications on Networkianos Lab."
+alt: /equipo/zeus-dominguez-rubio.html
+body-classes: nw-perfil
+image: /img/equipo/zeus-dominguez-rubio.jpg
+listing:
+  id: pubs-zd
+  contents: "../publications/*.qmd"
+  include:
+    autores: "*Zeus Domínguez-Rubio*"
+  template: ../../_listing/publicaciones-en.ejs
+  sort: "date desc"
+  date-format: "YYYY"
+  fields: [title, date, description, image, tipo, autores, revista, doi, pdf, datos, codigo, path]
+format:
+  html:
+    include-in-header:
+      text: |
+        <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"Person","name":"Zeus Domínguez-Rubio","alternateName":["Zeus Domínguez","Zeus Dominguez Rubio","Zeus Sergio Domínguez Rubio"],"affiliation":{"@type":"CollegeOrUniversity","name":"Universitat de València","url":"https://www.uv.es"},"memberOf":{"@type":"Organization","name":"Networkianos","url":"https://networkianos.com"},"image":"https://lab.networkianos.com/img/equipo/zeus-dominguez-rubio.jpg","url":"https://lab.networkianos.com/en/team/zeus-dominguez-rubio.html","knowsAbout":["Ecological transition","Power relations","Institutional change","Tech elites","Sociology"]}
+        </script>
+---
+
+::: {.nw-persona}
+![](/img/equipo/zeus-dominguez-rubio.jpg){.nw-foto fig-alt="Photo of Zeus Domínguez-Rubio"}
+
+**Zeus Domínguez-Rubio** is a researcher at the Universitat de València and a member of [Networkianos](https://networkianos.com). He is interested in researching the ecological transition, power relations and institutional change.
+:::
+
+## Publications by Zeus Domínguez-Rubio
+
+::: {#pubs-zd}
+:::

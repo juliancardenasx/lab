@@ -214,3 +214,6 @@ img.nw-cover { float: right; width: 150px; margin: 0 0 1rem 1.5rem; border: 1px 
 .nw-lang a:hover { background: #f1f1f1; text-decoration: none; }
 .nw-lang-mobile { margin: 0 0 0 auto; }
 .nw-sections a img { background: #262626; }
+// Páginas de perfil
+body.nw-perfil .quarto-title-block .description { display: none; }
+.nw-persona { margin-bottom: 2rem; }

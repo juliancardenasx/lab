@@ -1,0 +1,44 @@
+---
+title: "Julián Cárdenas"
+subtitle: "Sociólogo · Universitat de València"
+pagetitle: "Julián Cárdenas – Sociólogo, Universitat de València"
+description: "Julián Cárdenas, sociólogo e investigador de la Universitat de València. Redes sociales y organizativas, élites empresariales, métodos cuantitativos e inteligencia artificial aplicada a la investigación. Publicaciones, datos y skills de IA."
+alt: /en/team/julian-cardenas.html
+body-classes: nw-perfil
+image: https://github.com/juliancardenasx.png?size=320
+listing:
+  id: pubs-jc
+  contents: "../publicaciones/*.qmd"
+  include:
+    autores: "*Julián Cárdenas*"
+  template: ../_listing/publicaciones.ejs
+  sort: "date desc"
+  date-format: "YYYY"
+  fields: [title, date, description, image, tipo, autores, revista, doi, pdf, datos, codigo, path]
+format:
+  html:
+    include-in-header:
+      text: |
+        <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"Person","name":"Julián Cárdenas","alternateName":["Julian Cardenas"],"jobTitle":"Sociólogo e investigador","affiliation":{"@type":"CollegeOrUniversity","name":"Universitat de València","url":"https://www.uv.es"},"memberOf":{"@type":"Organization","name":"Networkianos","url":"https://networkianos.com"},"email":"mailto:julian.cardenas@uv.es","image":"https://github.com/juliancardenasx.png","url":"https://lab.networkianos.com/equipo/julian-cardenas.html","sameAs":["https://networkianos.com","https://github.com/juliancardenasx","https://www.youtube.com/@julian.cardenas"],"knowsAbout":["Sociología","Análisis de redes sociales","Élites empresariales","Interlocking directorates","Métodos cuantitativos","Inteligencia artificial en la investigación"]}
+        </script>
+---
+
+::: {.nw-persona}
+![](https://github.com/juliancardenasx.png?size=320){.nw-foto fig-alt="Foto de Julián Cárdenas"}
+
+**Julián Cárdenas** es sociólogo e investigador de la Universitat de València y miembro de [Networkianos](https://networkianos.com). Investiga redes sociales y organizativas, élites empresariales y consejos de administración (*interlocking directorates*), métodos cuantitativos y el uso de la inteligencia artificial en la investigación social.
+:::
+
+## Enlaces
+
+[julian.cardenas@uv.es](mailto:julian.cardenas@uv.es) · [networkianos.com](https://networkianos.com) · [GitHub](https://github.com/juliancardenasx) · [YouTube](https://www.youtube.com/@julian.cardenas)
+
+## Skills de IA
+
+- [Thesis-to-Articles](../skills/thesis-to-articles.qmd): convierte una tesis doctoral en artículos para revistas Q1.
+
+## Publicaciones de Julián Cárdenas
+
+::: {#pubs-jc}
+:::

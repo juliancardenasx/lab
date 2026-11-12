@@ -10,7 +10,7 @@ lang: es
 
 website:
   title: "Networkianos Lab"
-  description: "Publicaciones, datos, skills, plugins y tutoriales de investigación social con IA. Networkianos."
+  description: "Networkianos Lab: publicaciones, datos, skills de IA y tutoriales del equipo de sociología Networkianos (Universitat de València): Julián Cárdenas y Zeus Domínguez-Rubio."
   site-url: "https://lab.networkianos.com"
   favicon: img/favicon.svg
   open-graph: true
@@ -43,8 +43,9 @@ website:
         - section: "Vídeos"
           href: videos/index.qmd
           contents: "videos/*.qmd"
-        - text: "Quiénes somos"
+        - section: "Quiénes somos"
           href: quienes-somos.qmd
+          contents: "equipo/*.qmd"
       tools:
         - icon: youtube
           href: https://www.youtube.com/@julian.cardenas
@@ -79,8 +80,9 @@ website:
         - section: "Videos"
           href: en/videos/index.qmd
           contents: "en/videos/*.qmd"
-        - text: "About us"
+        - section: "About us"
           href: en/about.qmd
+          contents: "en/team/*.qmd"
       tools:
         - icon: youtube
           href: https://www.youtube.com/@julian.cardenas
@@ -138,7 +140,8 @@ format:
           var pairs = {
             "/": "/en/", "/index.html": "/en/",
             "/publicaciones/": "/en/publications/", "/datos/": "/en/data/", "/skills/": "/en/skills/",
-            "/plugins/": "/en/plugins/", "/videos/": "/en/videos/", "/quienes-somos.html": "/en/about.html"
+            "/plugins/": "/en/plugins/", "/videos/": "/en/videos/", "/quienes-somos.html": "/en/about.html",
+            "/equipo/julian-cardenas.html": "/en/team/julian-cardenas.html", "/equipo/zeus-dominguez-rubio.html": "/en/team/zeus-dominguez-rubio.html"
           };
           var p = location.pathname.replace(/index\.html$/, '');
           var other = null;
