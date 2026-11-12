@@ -1,8 +1,8 @@
 ---
 title: "Julián Cárdenas"
-subtitle: "Sociologist · Universitat de València"
-pagetitle: "Julián Cárdenas – Sociologist, Universitat de València"
-description: "Julián Cárdenas, sociologist and researcher at the Universitat de València. Social and organisational networks, business elites, quantitative methods and AI applied to research. Publications, data and AI skills."
+subtitle: "Professor · Universitat de València"
+pagetitle: "Julián Cárdenas – Professor, Universitat de València"
+description: "Julián Cárdenas, professor at the Universitat de València. He teaches artificial intelligence, network analysis and quantitative methods, and researches elites, networking and the use of AI in research."
 alt: /equipo/julian-cardenas.html
 body-classes: nw-perfil
 image: https://github.com/juliancardenasx.png?size=320
@@ -20,19 +20,19 @@ format:
     include-in-header:
       text: |
         <script type="application/ld+json">
-        {"@context":"https://schema.org","@type":"Person","name":"Julián Cárdenas","alternateName":["Julian Cardenas"],"jobTitle":"Sociologist and researcher","affiliation":{"@type":"CollegeOrUniversity","name":"Universitat de València","url":"https://www.uv.es"},"memberOf":{"@type":"Organization","name":"Networkianos","url":"https://networkianos.com"},"email":"mailto:julian.cardenas@uv.es","image":"https://github.com/juliancardenasx.png","url":"https://lab.networkianos.com/en/team/julian-cardenas.html","sameAs":["https://networkianos.com","https://github.com/juliancardenasx","https://www.youtube.com/@julian.cardenas"],"knowsAbout":["Sociology","Social network analysis","Business elites","Interlocking directorates","Quantitative methods","Artificial intelligence in research"]}
+        {"@context": "https://schema.org", "@type": "Person", "name": "Julián Cárdenas", "alternateName": ["Julian Cardenas", "Julián Andrés Cárdenas Herrera", "Julian Andres Cardenas Herrera"], "jobTitle": "Professor of Sociology", "affiliation": {"@type": "CollegeOrUniversity", "name": "Universitat de València", "url": "https://www.uv.es"}, "email": "mailto:julian.cardenas@uv.es", "image": "https://github.com/juliancardenasx.png", "url": "https://lab.networkianos.com/en/team/julian-cardenas.html", "sameAs": ["https://www.uv.es/uvweb/universidad/es/ficha-persona-1285950309813.html?p2=jucarhe", "https://orcid.org/0000-0003-0584-5603", "https://www.researchgate.net/profile/Julian_Cardenas3", "https://networksprovidehappiness.com/julian-cardenas/", "https://networkianos.com", "https://github.com/juliancardenasx", "https://www.youtube.com/@julian.cardenas"], "knowsAbout": ["Artificial intelligence", "Social network analysis", "Quantitative methods", "Elites", "Networking", "Artificial intelligence in research"]}
         </script>
 ---
 
 ::: {.nw-persona}
 ![](https://github.com/juliancardenasx.png?size=320){.nw-foto fig-alt="Photo of Julián Cárdenas"}
 
-**Julián Cárdenas** is a sociologist and researcher at the Universitat de València and a member of [Networkianos](https://networkianos.com). His research covers social and organisational networks, business elites and interlocking directorates, quantitative methods and the use of artificial intelligence in social research.
+**Julián Cárdenas** is a professor at the [Universitat de València](https://www.uv.es/uvweb/college/en/profile-1285950309813.html?p2=jucarhe). He teaches artificial intelligence, network analysis and quantitative methods, and researches elites, networking and the use of artificial intelligence in research.
 :::
 
 ## Links
 
-[julian.cardenas@uv.es](mailto:julian.cardenas@uv.es) · [networkianos.com](https://networkianos.com) · [GitHub](https://github.com/juliancardenasx) · [YouTube](https://www.youtube.com/@julian.cardenas)
+[julian.cardenas@uv.es](mailto:julian.cardenas@uv.es) · [Universitat de València profile](https://www.uv.es/uvweb/college/en/profile-1285950309813.html?p2=jucarhe) · [ResearchGate](https://www.researchgate.net/profile/Julian_Cardenas3) · [ORCID](https://orcid.org/0000-0003-0584-5603) · [networksprovidehappiness.com](https://networksprovidehappiness.com/julian-cardenas/) · [networkianos.com](https://networkianos.com) · [GitHub](https://github.com/juliancardenasx) · [YouTube](https://www.youtube.com/@julian.cardenas)
 
 ## AI skills
 

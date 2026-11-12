@@ -1,27 +1,28 @@
 ---
 title: "About us"
 description: "Networkianos is a sociology research team at the Universitat de València: Julián Cárdenas and Zeus Domínguez-Rubio. Networks, elites, ecological transition and artificial intelligence."
+body-classes: nw-perfil
 alt: /quienes-somos.html
 ---
 
-**Networkianos** is a sociology research team that studies social and organisational networks, elites, quantitative methods and artificial intelligence applied to research.
+**Networkianos** is a sociology research team that studies social and organisational networks, elites, the ecological transition and artificial intelligence applied to research.
 
 ## Team
 
 ::: {.nw-equipo}
 
 ::: {.nw-miembro}
-![](https://github.com/juliancardenasx.png?size=320){.nw-foto fig-alt="Photo of Julián Cárdenas"}
+[![](https://github.com/juliancardenasx.png?size=320){.nw-foto fig-alt="Photo of Julián Cárdenas"}](team/julian-cardenas.qmd)
 
 **[Julián Cárdenas](team/julian-cardenas.qmd)**  
-Universitat de València
+[Universitat de València](https://www.uv.es/uvweb/college/en/profile-1285950309813.html?p2=jucarhe)
 :::
 
 ::: {.nw-miembro}
-![](/img/equipo/zeus-dominguez-rubio.jpg){.nw-foto fig-alt="Photo of Zeus Domínguez-Rubio"}
+[![](/img/equipo/zeus-dominguez-rubio.jpg){.nw-foto fig-alt="Photo of Zeus Domínguez-Rubio"}](team/zeus-dominguez-rubio.qmd)
 
 **[Zeus Domínguez-Rubio](team/zeus-dominguez-rubio.qmd)**  
-Universitat de València  
+[Universitat de València](https://www.uv.es/uvweb/college/en/profile-1285950309813.html?p2=zeuserdo)  
 Interested in researching the ecological transition, power relations and institutional change
 :::
 

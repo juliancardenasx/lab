@@ -1,0 +1,26 @@
+---
+title: "Co-occurrences and trends in energy transition and corporate power: 2015–2026"
+alt: /publicaciones/2026-transicion-energetica-poder-corporativo.html
+date: 2026-04-08
+date-format: "YYYY"
+tipo: articulo
+autores: "Zeus Domínguez-Rubio"
+revista: "methaodos.revista de ciencias sociales, 14(1), m261401a01"
+description: "A bibliometric map of research on corporate networks and the energy transition: a technocratic framing dominates and corporate power sits on the periphery. In Spanish."
+image: /publicaciones/img/2026-transicion-energetica-poder-corporativo.jpg
+doi: "10.17502/mrcs.v14i1.910"
+pdf: "/publicaciones/pdf/2026-transicion-energetica-poder-corporativo.pdf"
+categories: [article, energy transition, corporate power, bibliometrics]
+---
+
+## What it is about
+
+*The article is written in Spanish, with an English abstract.*
+
+The article maps the academic conversation at the intersection of corporate networks and the energy transition between 2015 and 2026. Using a cleaned Scopus corpus, it combines bibliometric co-occurrence analysis (titles and keywords), descriptive indicators and temporal trends, plus a terminology-sensitivity check.
+
+The field is organised around a techno-climatic, implementation-oriented core: renewables, decarbonisation, energy policy and investment. Critical political-economy notions such as incumbency, lobbying, interlocking directorates and regulatory capture appear unevenly and, when present, sit on the periphery. The transition is framed mainly as a technological and management problem, while power and institutional influence are less integrated. The article proposes an agenda that combines bibliometrics with co-citation, collaboration networks and elite data (interlocks, ownership, politically exposed persons) to link power structures with decarbonisation pathways.
+
+## How to cite
+
+Domínguez Rubio, Z. S. (2026). Co-ocurrencias y tendencias en transición energética y poder corporativo: 2015–2026. *methaodos.revista de ciencias sociales*, *14*(1), m261401a01. <https://doi.org/10.17502/mrcs.v14i1.910>

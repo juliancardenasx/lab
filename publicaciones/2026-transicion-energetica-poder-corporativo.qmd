@@ -1,0 +1,24 @@
+---
+title: "Co-ocurrencias y tendencias en transición energética y poder corporativo: 2015–2026"
+alt: /en/publications/2026-energy-transition-corporate-power.html
+date: 2026-04-08
+date-format: "YYYY"
+tipo: articulo
+autores: "Zeus Domínguez-Rubio"
+revista: "methaodos.revista de ciencias sociales, 14(1), m261401a01"
+description: "Un mapa bibliométrico de la investigación sobre redes corporativas y transición energética: domina una mirada tecnocrática y el poder corporativo queda en la periferia."
+image: img/2026-transicion-energetica-poder-corporativo.jpg
+doi: "10.17502/mrcs.v14i1.910"
+pdf: "/publicaciones/pdf/2026-transicion-energetica-poder-corporativo.pdf"
+categories: [artículo, transición energética, poder corporativo, bibliometría]
+---
+
+## De qué trata
+
+El artículo cartografía la conversación académica en el cruce entre redes corporativas y transición energética entre 2015 y 2026. Con un corpus depurado de Scopus, combina análisis bibliométricos de co-ocurrencia (títulos y palabras clave), indicadores descriptivos y tendencias temporales, y una prueba de sensibilidad terminológica.
+
+El campo se organiza en torno a un núcleo tecnoclimático y de implementación: renovables, descarbonización, política energética e inversión. Las nociones de la economía política crítica, como la incumbencia, el *lobbying*, los *interlocking directorates* o la captura regulatoria, aparecen de forma desigual y, cuando aparecen, ocupan posiciones periféricas. La transición se piensa sobre todo como un problema tecnológico y de gestión, mientras que el poder y la influencia institucional quedan menos integrados. El texto propone una agenda que combine bibliometría con co-citación, redes de colaboración y datos sobre élites (*interlocks*, propiedad, personas políticamente expuestas) para vincular la estructura de poder con las trayectorias de descarbonización.
+
+## Cómo citar
+
+Domínguez Rubio, Z. S. (2026). Co-ocurrencias y tendencias en transición energética y poder corporativo: 2015–2026. *methaodos.revista de ciencias sociales*, *14*(1), m261401a01. <https://doi.org/10.17502/mrcs.v14i1.910>
