@@ -15,14 +15,13 @@ listing:
   sort: "date desc"
   date-format: "YYYY"
   fields: [title, date, description, image, tipo, autores, revista, doi, pdf, datos, codigo, path]
-format:
-  html:
-    include-in-header:
-      text: |
-        <script type="application/ld+json">
-        {"@context": "https://schema.org", "@type": "Person", "name": "Julián Cárdenas", "alternateName": ["Julian Cardenas", "Julián Andrés Cárdenas Herrera", "Julian Andres Cardenas Herrera"], "jobTitle": "Professor of Sociology", "affiliation": {"@type": "CollegeOrUniversity", "name": "Universitat de València", "url": "https://www.uv.es"}, "email": "mailto:julian.cardenas@uv.es", "image": "https://github.com/juliancardenasx.png", "url": "https://lab.networkianos.com/en/team/julian-cardenas.html", "sameAs": ["https://www.uv.es/uvweb/universidad/es/ficha-persona-1285950309813.html?p2=jucarhe", "https://orcid.org/0000-0003-0584-5603", "https://www.researchgate.net/profile/Julian_Cardenas3", "https://networksprovidehappiness.com/julian-cardenas/", "https://networkianos.com", "https://github.com/juliancardenasx", "https://www.youtube.com/@julian.cardenas"], "knowsAbout": ["Artificial intelligence", "Social network analysis", "Quantitative methods", "Elites", "Networking", "Artificial intelligence in research"]}
-        </script>
 ---
+
+```{=html}
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "Person", "name": "Julián Cárdenas", "alternateName": ["Julian Cardenas", "Julián Andrés Cárdenas Herrera", "Julian Andres Cardenas Herrera"], "jobTitle": "Professor of Sociology", "affiliation": {"@type": "CollegeOrUniversity", "name": "Universitat de València", "url": "https://www.uv.es"}, "email": "mailto:julian.cardenas@uv.es", "image": "https://github.com/juliancardenasx.png", "url": "https://lab.networkianos.com/en/team/julian-cardenas.html", "sameAs": ["https://www.uv.es/uvweb/universidad/es/ficha-persona-1285950309813.html?p2=jucarhe", "https://orcid.org/0000-0003-0584-5603", "https://www.researchgate.net/profile/Julian_Cardenas3", "https://networksprovidehappiness.com/julian-cardenas/", "https://networkianos.com", "https://github.com/juliancardenasx", "https://www.youtube.com/@julian.cardenas"], "knowsAbout": ["Artificial intelligence", "Social network analysis", "Quantitative methods", "Elites", "Networking", "Artificial intelligence in research"]}
+</script>
+```
 
 ::: {.nw-persona}
 ![](https://github.com/juliancardenasx.png?size=320){.nw-foto fig-alt="Photo of Julián Cárdenas"}

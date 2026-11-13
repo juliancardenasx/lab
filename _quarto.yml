@@ -111,8 +111,24 @@ format:
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="28395458-6feb-4f04-b44b-0a33b4336bf5" data-domains="lab.networkianos.com"></script>
     include-after-body:
       text: |
+        <script>
+        // Estadísticas (Umami): clics en PDF, DOI, vídeos, GitHub y enlaces externos
+        document.addEventListener('click', function (e) {
+          var a = e.target.closest && e.target.closest('a[href]');
+          if (!a || !window.umami) return;
+          var url = a.href, host = a.hostname, ev = null;
+          if (/\.pdf($|[?#])/i.test(url)) ev = 'descarga-pdf';
+          else if (/doi\.org$/i.test(host)) ev = 'clic-doi';
+          else if (/youtube\.com$|youtu\.be$/i.test(host)) ev = 'clic-youtube';
+          else if (/github\.com$/i.test(host)) ev = 'clic-github';
+          else if (/^mailto:/i.test(url)) ev = 'clic-email';
+          else if (host && host !== location.hostname) ev = 'enlace-externo';
+          if (ev) window.umami.track(ev, { url: url, pagina: location.pathname });
+        }, true);
+        </script>
         <script>
         (function () {
           var isEn = location.pathname.indexOf('/en/') === 0 || location.pathname === '/en';
